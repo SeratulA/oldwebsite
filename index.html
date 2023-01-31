@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+<button onclick="scrollToProjects()">View Projects </button>
+
+
+
+<script>
+    function scrollToProjects() {
+        var projectsSection = document.getElementById("projects");
+        projectsSection.scrollIntoView({ behavior: "smooth" });
+    }
+</script>
+
+
+
+<style>
+    button {
+        float: right;
+        margin-right: 10px;
+        padding: 10px 20px;
+        background-color: #ddd;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #ccc;
+        cursor: pointer;
+    }
+</style>
+
+<style>
+    button {
+        float: right;
+        margin-right: 10px;
+    }
+</style>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Software Engineer Resume</title>
+    <link rel="stylesheet" type="text/css" href="file.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume-container">
+        <div class="personal-info">
+            <h1 style="font-size: 56px;">Seratul Ambia</h1>
+            <div style="text-align:center;">
+                <img src="image.jpg" alt="your image description" width="500" height="650">
+            </div>
+            <p>
+
+            <h1 style="font-size: 46px;">My Resume</h1>
+            Location: Astoria, NY 11102
+
+            </p>
+            <p>
+
+                Phone: (347) 545-8836
+            </p>
+            <p>
+
+                Email: seratul.ambia@gmail.com
+            </p>
+        </div>
+        <div class="professional-summary">
+            <h2>Professional Summary</h2>
+            <p>
+                Worked in a startup that allowed for vendors and retailers to initiate and manage invoices on a mobile
+                phone or
+                website portal. Incorporated payment features and installment plans to complete invoices. Worked as a
+                data
+                manager with two years of experience in managing multiple spreadsheets in Google Sheets and QuickBooks
+                integrations. Developed and optimized data systems to meet company OKRs.
+            </p>
+        </div>
+        <div class="education">
+            <h2>Education</h2>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>
+                Queens College of The City University of New York - Flushing, NY | 05/2023
+
+            </p>
+            <ul>
+                <li>OOP in Java</li>
+                <li>OOP in C++</li>
+                <li>Data Structures</li>
+                <li>Design & Analysis of Algorithms</li>
+                <li>Database Systems</li>
+                <li>Operating Systems</li>
+                <li>Software Engineering</li>
+                <li>Web Technologies (Javascript)</li>
+                <li>Advanced Python Programming</li>
+            </ul>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>Dart</li>
+                <li>Google's Flutter</li>
+                <li>Google Sheets</li>
+                <li>Excel</li>
+                <li>MySQL</li>
+                <li>AWS</li>
+                <li>Object Oriented Programming</li>
+                <li>Data Structures</li>
+                <li>Algorithms</li>
+                <li>JavaScript API's</li>
+
+            </ul>
+        </div>
+        <div class="work-history">
+            <h2>Work History</h2>
+            <h3>Software Developer | 02/2021 to 01/2022
+            </h3>
+            <p>
+                ROSP Inc., New York, USA
+            </p>
+            <ul>
+                <li>Lead developer at a startup working on building mobile and website apps using Google’s Flutter.</li>
+                <li>Designed UX and UI to build mobile interface and website portal.</li>
+                <li> Integrated Google’s Firebase to create and store all user information into the database</li>
+                <li> Designed tools to upload user’s invoices and vendor to retailer transaction history with file types
+                    of PDF,
+                    CSV, and XLSX.
+                </li>
+                <li> Incorporated payment and installment options for all invoices. Additionally included dispute
+                    features
+                    between retailers and vendors.
+                </li>
+            </ul>
+            <h3>Data Team Manager | 09/2018 to 03/2021
+
+            </h3>
+            <p>
+                Khan's Tutorial, New York, USA
+            </p>
+            <ul>
+                <li> Managed all sales and installments from QuickBooks to integrate on Google Sheets. Performed systems
+                    and data analysis using a variety of computer languages and procedures.</li>
+                <li>Developed scripts using JS to manage all customer information, take student attendance, record and
+                    analyze all student and employee information.</li>
+                <li> Created an online classroom platform using zoom on the company website to shift in-person classes
+                    to
+                    online during the pandemic.</li>
+                <li> Integrated Twilio for our Marketing and Outreach departments which resulted in reduced consumer
+                    spending by 80%
+                </li>
+
+            </ul>
+            <section id="projects">
+                <!-- Your projects content goes here -->
+                <h2 style="font-size: 36px;">My Projects</h2>
+                <h2>ROSP Inc. Startup Project</h2>
+                <p1>
+                    I was hired as a lead developer to create an invoice app. My team consisted of four members in which
+                    we created both a phone
+                    and web app. We used Google's Flutter to create both apps and used Google's Firebase as our database
+                    to store user information.
+                    </p>
+
+                    <p1>
+                        Here is a view of the login page on both the phone and web view.
+                        </p>
+                        <div style="text-align:center;">
+                            <img src="Login.jpg" alt="your image description" width="900" height="1050">
+                        </div>
+                    </p>
+                        <p1>
+                            This is the home page view for retailers and vendors. This shows all incoming invoices
+                            that are due and allowed options to view upcoming and paid invoices in a table format. 
+                            While clicking on checkboxes, you can select multiple invoices and pay them.                            </p>
+                            <div style="text-align:center;">
+                                <img src="Retailer View.jpg" alt="your image description" width="900" height="1050">
+                            </div>
+                        </p>
+                        <p1>
+                            Lastly, this was an option to upload all of your previous invoices of a certain file format
+                            including csv, xlsx, and txt. After uploading your invoices, you are able to match your uploaded
+                            document columns to the fixed format presented by our app.
+                            </p>
+                            <div style="text-align:center;">
+                                <img src="csvview.jpg" alt="your image description" width="900" height="550">
+                            </div>
+                            <div style="text-align:center;">
+                                <img src="columnmatching.jpg" alt="your image description" width="900" height="550">
+                            </div>
+                    <h2>Connecting Two Api's Project</h2>
+                    <p1>
+                        For this project, I used two API's and created a mashup that uses them synchrnously. The API's I used was weatherbit
+                        and citi-bike API's. When a user input's a zipcode, they are provided with all the citi bike stations in the area. 
+                        Additionally, information about the address, available bikes, weather, temperature, time of sunrise, and time of 
+                        sunset was also provided.
+                        </p>
+                        <div style="text-align:center;">
+                            <img src="weatherbit.jpg" alt="your image description" width="900" height="850">
+                        </div>
+                       
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
